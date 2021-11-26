@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(assets/Frame.png);
+  background-repeat: no-repeat;
+  background-color: #171d21;
+  background-size: 74rem;
+  background-position: bottom;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.container {
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+  align-items: center;
+  gap: 2.5rem;
+}
+.nav {
+  padding-left: 3rem;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  word-spacing: 0.5px;
+  align-items: center;
+}
+.circle {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #912d25;
+  z-index: -1;
+}
+.circle-div {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+  align-items: center;
+  gap: 2.5rem;
+}
+.nav {
+  padding-left: 3rem;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 5rem;
+}
+.btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  word-spacing: 0.5px;
+  align-items: center;
+}
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #912d25;
+}
+.circle-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+header {
+  padding: 20px;
+  background: #1d2129;
+  width: 20%;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: -23rem;
+}
+.sidebar {
+  width: 20%;
+  background: #1d2129;
+  position: absolute;
+  height: 95vh;
+  left: -100%;
+  padding: 80px 50px;
+  transition: all 1s;
+}
+.sidebar.active {
+  left: 0;
+  width: 100%;
+  top: auto;
+}
+svg {
+  cursor: pointer;
+}
+.head {
+  width: 22%;
+  background: #1d2129;
+  position: absolute;
+  height: 7vh;
+  margin-top: -22rem;
+  left: -100%;
+  transition: all 1s;
+}
+.head.active {
+  left: 0;
+}
+.rightbar {
+  height: 102.5vh;
+  position: absolute;
+  background: rgba(54, 59, 70, 0.97);
+  left: -200%;
+  top: -4rem;
+  padding: 80px 50px;
+  transition: all 1s;
+  width: 80%;
+}
+.rightbar.active {
+  left: 21.6rem;
+  width: 400%;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+.list-heading {
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+  cursor: pointer;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.menu {
+  cursor: pointer;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  font-weight: bolder;
+}
+.list-heading-right {
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.right-side {
+  background: #363b46;
+  width: 75%;
+}
